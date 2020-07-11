@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".reminder"
+    android:background="#323232">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="289dp"
+        android:layout_height="61dp"
+        android:gravity="center"
+        android:text="REMINDER"
+        android:textStyle="bold"
+        android:textColor="#b30000"
+        android:textSize="100px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.183" />
+
+    <EditText
+        android:id="@+id/task"
+        android:layout_width="342dp"
+        android:layout_height="54dp"
+        android:background="@drawable/cused"
+        android:hint="Task to Do"
+        android:paddingLeft="20dp"
+        android:textColor="#ececec"
+        android:textColorHint="#686868"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="342dp"
+        android:layout_height="54dp"
+        android:background="@drawable/cused"
+        android:hint="DD/MM/YYYY"
+        android:paddingLeft="20dp"
+        android:textColor="#ececec"
+        android:textColorHint="#686868"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.468" />
+
+    <EditText
+        android:id="@+id/loc"
+        android:layout_width="342dp"
+        android:layout_height="54dp"
+        android:background="@drawable/cused"
+        android:hint="Location"
+        android:paddingLeft="20dp"
+        android:textColor="#ececec"
+        android:textColorHint="#686868"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.579" />
+
+    <EditText
+        android:id="@+id/not"
+        android:layout_width="342dp"
+        android:layout_height="54dp"
+        android:background="@drawable/cused"
+        android:hint="Notifications/day"
+        android:paddingLeft="20dp"
+        android:textColor="#ececec"
+        android:textColorHint="#686868"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7" />
+
+    <Button
+        android:id="@+id/setrem"
+        android:layout_width="149dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginRight="96dp"
+        android:background="#b30000"
+        android:fontFamily="serif"
+        android:text="Set Reminder"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.789"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.86" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
